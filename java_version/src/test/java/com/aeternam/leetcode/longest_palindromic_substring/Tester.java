@@ -1,7 +1,7 @@
 /**
- * Leetcode - longest_substring
+ * Leetcode - longest_palindromic_substring
  */
-package com.aeternam.leetcode.longest_substring;
+package com.aeternam.leetcode.longest_palindromic_substring;
 
 import java.util.*;
 import com.ciaoshen.leetcode.util.*;
@@ -49,10 +49,6 @@ public class Tester {
             // {},     // test case 1 (init parameters below: {para1, para2, expected})
             // {},     // test case 2 (init parameters below: {para1, para2, expected})
             // {}      // test case 3 (init parameters below: {para1, para2, expected})
-                {"babad", 3},
-                {"cbbd", 2},
-                {"pwwkew", 3}
-                {"bbbbb", 1}
         });
     }
 
@@ -62,16 +58,16 @@ public class Tester {
      * Parameters for each test (initialized in testcases() method) 
      * You can change the type of parameters
      */
-     private String para1;                       // parameter 1
+    // private Object para1;                       // parameter 1
     // private Object para2;                       // parameter 2
-     private int expected;                    // parameter 3 (expected answer)
+    // private Object expected;                    // parameter 3 (expected answer)
 
     /** This constructor must be provided to run parameterized test. */
     public Tester(Object para1, Object para2, Object expected) {
            // initialize test parameters
-         this.para1 = para1;
+    //     this.para1 = para1; 
     //     this.para2 = para2;
-         this.expected = expected;
+    //     this.expected = expected;
     }
 
     /** Execute before each test method in this class is executed. */
